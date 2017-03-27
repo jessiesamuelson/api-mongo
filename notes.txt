@@ -1,0 +1,6 @@
+https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd
+
+Open your postman and type:
+
+http://localhost:3000/tasks in the enter request URL section and press enter. Screen Shot 2017-03-03 at 8.15.35 PM.png On enter, you should see “[]” because there is nothing in the database yet.
+On the same address, change the method to POST, click body and select “x-www-form-urlencoded”. Then, enter name as the key and the corresponding task name as value. After this, click on send button. This should give you a response 200 ok
